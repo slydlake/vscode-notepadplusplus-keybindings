@@ -29,56 +29,60 @@
             },
             {
                 "key": "alt+0",
+                "mac": "",
                 "command": "editor.foldAll",
                 "when": "editorTextFocus"
             },
             {
                 "key": "alt+1",
+                "mac": "cmd+1",
                 "command": "editor.foldLevel1",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "alt+2",
+                "mac": "cmd+2",
                 "command": "editor.foldLevel2",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "alt+3",
+                "mac": "cmd+3",
                 "command": "editor.foldLevel3",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "alt+4",
+                "mac": "cmd+4",
                 "command": "editor.foldLevel4",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "alt+5",
+                "mac": "cmd+5",
                 "command": "editor.foldLevel5",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "alt+6",
+                "mac": "cmd+6",
                 "command": "editor.foldLevel6",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "alt+7",
+                "mac": "cmd+7",
                 "command": "editor.foldLevel7",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+8",
-                "command": "editor.foldLevel8",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "shift+alt+0",
                 "command": "editor.unfoldAll",
-                "when": "editorTextFocus"
+                "when": "editorTextFocus && foldingEnabled"
             },
             {
                 "key": "ctrl+h",
+                "mac": "cmd+h",
                 "command": "editor.action.startFindReplaceAction"
             },
             {
@@ -113,6 +117,7 @@
             },
             {
                 "key": "ctrl+d",
+                "mac": "cmd+d",
                 "command": "editor.action.duplicateSelection",
                 "when": "editorFocus"
             },
